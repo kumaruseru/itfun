@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+.env
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Config files with secrets
+.env.local
+.env.production
+config/secrets.json
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Testing
+.pytest_cache/
+.tox/
+
+# Documentation
+docs/_build/
+
+# Package files
+*.tar.gz
+*.zip
+
+# Quantum simulation outputs
+*.qasm
+quantum_results_*.json
+cown_quantum_demo_results_*.json
+
+# Development
+.mypy_cache/
+.dmypy.json
+dmypy.json
