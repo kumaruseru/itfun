@@ -13,10 +13,10 @@ from typing import Dict, Any, List
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 try:
-    from protocols.qkd_protocol import (
+    from quantum.protocols.qkd_protocol import (
         QKDManager, ProtocolType, QKDError, EavesdropDetected
     )
-    from encryption.quantum_encryptor import quantum_encryption
+    from quantum.encryption.quantum_encryptor import quantum_encryption
     print("✅ Successfully imported quantum modules")
     QUANTUM_AVAILABLE = True
 except ImportError as e:

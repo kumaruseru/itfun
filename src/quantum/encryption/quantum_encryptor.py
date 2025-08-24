@@ -23,7 +23,7 @@ from cryptography.hazmat.primitives.ciphers.aead import ChaCha20Poly1305
 from cryptography.hazmat.backends import default_backend
 import logging
 
-from protocols.qkd_protocol import qkd_manager, QuantumKey, ProtocolType
+from quantum.protocols.qkd_protocol import qkd_manager, QuantumKey, ProtocolType
 
 logger = logging.getLogger(__name__)
 

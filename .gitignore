@@ -66,6 +66,9 @@ docs/_build/
 *.qasm
 quantum_results_*.json
 cown_quantum_demo_results_*.json
+advanced_qkd_demo_results_*.json
+qkd_test_results_*.json
+quantum_benchmark_*.json
 
 # Development
 .mypy_cache/
