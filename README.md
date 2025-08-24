@@ -1,4 +1,4 @@
-# COWN Quantum System v1.1.0
+# 🚀 COWN Quantum System v1.1.0
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
 [![QuTiP](https://img.shields.io/badge/QuTiP-5.2.0-green.svg)](https://qutip.org)
@@ -6,12 +6,25 @@
 [![PennyLane](https://img.shields.io/badge/PennyLane-0.42.3-purple.svg)](https://pennylane.ai)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Integration Score](https://img.shields.io/badge/Integration%20Score-100%25-brightgreen.svg)](INTEGRATION_REPORT.md)
+[![Security Score](https://img.shields.io/badge/Security%20Score-84.3%25-success.svg)](enhanced_security_demo.py)
+[![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-gold.svg)](final_integration_demo.py)
 
-🔐 **Advanced Quantum Cryptography System with Multi-Backend Support**
+🔐 **Advanced Quantum Cryptography System with QuTiP 5.0 + NumPy 2.0 Integration**
 
 COWN (Cryptographic Operations with Quantum Networks) is a production-ready quantum key distribution (QKD) system that combines cutting-edge quantum simulation capabilities with enterprise-grade security features.
 
-## 🚀 Key Features
+## 🎯 Quick Start Demo
+
+```bash
+# Quick demonstration (< 1 minute)
+python github_demo.py
+
+# Full integration showcase (5-10 minutes)  
+python final_integration_demo.py
+
+# Security framework demo
+python enhanced_security_demo.py
+```
 
 ### 🔬 **Advanced Quantum Capabilities**
 - **Multi-Protocol Support**: BB84, Enhanced BB84, SARG04, E91 protocols
